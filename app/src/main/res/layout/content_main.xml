@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="0dp"
+        android:background="@color/purple_700"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:elevation="4dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/shopify"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/main_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:background="@color/purple_500"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorHeight="3.5dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/home_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/offerzone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/offer_zone" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/grocery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grocery" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/mobiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobiles" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/fashion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fashion" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/electronics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/electronics" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/forhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/for_home" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/beauty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beauty" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/appliances"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appliances" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/toysandbaby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toys_baby" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/flights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flights" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/insurance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insurance" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/sports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sports" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/giftcards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gift_cards" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        tools:listitem="@layout/list_item"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_tabs" />
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/shopify_plus"
+            android:title="@string/shopify_plus"/>
+        <item android:id="@+id/all_categories"
+            android:title="@string/all_categories"/>
+        <item android:id="@+id/moreOnShopify"
+            android:title="@string/more_on_shopify"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/chooseLanguage"
+            android:title="@string/choose_a_language"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/offerzone"
+            android:title="@string/offer_zone"/>
+        <item android:id="@+id/sellonshopify"
+            android:title="@string/sell_on_shopify"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/myorders"
+            android:title="@string/my_orders"/>
+        <item android:id="@+id/myrewards"
+            android:title="@string/my_rewards"/>
+        <item android:id="@+id/mycart"
+            android:title="@string/my_cart"/>
+        <item android:id="@+id/mywishlist"
+            android:title="@string/my_wishlist"/>
+        <item android:id="@+id/myaccount"
+            android:title="@string/my_account"/>
+        <item android:id="@+id/mynotifs"
+            android:title="@string/my_notifications"/>
+        <item android:id="@+id/mychats"
+            android:title="@string/my_chats"/>
+
+    </group>
+
+    <item android:title="@string/help_and_support">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item android:id="@+id/helpcanter"
+                    android:title="@string/help_centre"/>
+                <item android:id="@+id/Privacypolicy"
+                    android:title="@string/privacy_policy"/>
+                <item android:id="@+id/legal"
+                    android:title="@string/legal"/>
+                <item android:id="@+id/share_support"
+                    android:title="@string/share_and_support"/>
+                <item android:id="@+id/exit"
+                    android:title="@string/exit"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
