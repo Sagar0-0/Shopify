@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/item_name"
+        android:id="@+id/item_name_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -49,12 +49,12 @@
         android:layout_marginStart="15dp"
         android:textColor="@color/white"
         android:background="@color/green"
-        app:layout_constraintTop_toBottomOf="@id/item_name"
+        app:layout_constraintTop_toBottomOf="@id/item_name_text"
         app:layout_constraintStart_toEndOf="@id/item_image"/>
 
 
     <TextView
-        android:id="@+id/price_text"
+        android:id="@+id/item_price_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="₹9,999"
@@ -76,7 +76,7 @@
         android:layout_marginBottom="10dp"
         android:layout_marginStart="15dp"
         android:fontFamily="sans-serif-smallcaps"
-        app:layout_constraintTop_toBottomOf="@id/price_text"
+        app:layout_constraintTop_toBottomOf="@id/item_price_text"
         app:layout_constraintStart_toEndOf="@id/item_image"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
