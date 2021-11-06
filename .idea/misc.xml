@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/sagar/AndroidStudioProjects/Shopify/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/sagar/AndroidStudioProjects/Shopify/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/sagar/AndroidStudioProjects/Shopify/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.2101851851851852" />
         <entry key="..\:/Users/sagar/AndroidStudioProjects/Shopify/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/sagar/AndroidStudioProjects/Shopify/app/src/main/res/layout/content_main.xml" value="0.19444444444444445" />
         <entry key="..\:/Users/sagar/AndroidStudioProjects/Shopify/app/src/main/res/layout/list_item.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/sagar/AndroidStudioProjects/Shopify/app/src/main/res/layout/nav_header.xml" value="0.19444444444444445" />
         <entry key="..\:/Users/sagar/AndroidStudioProjects/Shopify/app/src/main/res/menu/draw_menu.xml" value="0.19692307692307692" />
+        <entry key="..\:/Users/sagar/AndroidStudioProjects/Shopify/app/src/main/res/menu/main_menu.xml" value="0.18055555555555555" />
       </map>
     </option>
   </component>
