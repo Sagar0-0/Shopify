@@ -6,8 +6,7 @@
     android:id="@+id/drawer_layout"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.android.shopify.MainActivity"
-    tools:openDrawer="start"
-    android:fitsSystemWindows="true">
+    tools:openDrawer="start">
 
     <include
         android:layout_height="match_parent"

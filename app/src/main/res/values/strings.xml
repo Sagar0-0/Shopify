@@ -42,4 +42,6 @@
     <string name="buy_now">BUY NOW</string>
     <string name="product_image">Product Image</string>
     <string name="other_offers_and_product_info_will_be_there_in_further_updates">Other Offers and product info will be there in further updates..</string>
+    <string name="Open_Navigation_Drawer">Open Navigation Drawer</string>
+    <string name="close_Navigation_Drawer">Close Navigation Drawer</string>
 </resources>
