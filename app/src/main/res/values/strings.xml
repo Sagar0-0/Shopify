@@ -37,4 +37,9 @@
     <string name="_4_4">4.4★</string>
     <string name="free_delivery">Free Delivery</string>
     <string name="notifications">Notifications</string>
+    <string name="proceed_to_buy">Proceed To Buy</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="product_image">Product Image</string>
+    <string name="other_offers_and_product_info_will_be_there_in_further_updates">Other Offers and product info will be there in further updates..</string>
 </resources>
