@@ -127,6 +127,7 @@
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         tools:listitem="@layout/list_item"
         android:layout_height="match_parent"

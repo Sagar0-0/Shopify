@@ -105,6 +105,7 @@
             android:layout_height="match_parent">
 
             <TextView
+                android:id="@+id/addToCart"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
@@ -114,6 +115,7 @@
                 android:text="@string/add_to_cart"
                 android:textSize="20sp" />
             <TextView
+                android:id="@+id/buyNow"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
