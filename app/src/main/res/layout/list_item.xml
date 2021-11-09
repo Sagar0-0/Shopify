@@ -53,6 +53,16 @@
         app:layout_constraintTop_toBottomOf="@id/item_name_text"
         app:layout_constraintStart_toEndOf="@id/item_image"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/grey"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/rating_text"
+        app:layout_constraintTop_toBottomOf="@id/item_name_text"
+        android:text="@string/_2_28_236"/>
 
     <TextView
         android:id="@+id/item_price_text"
@@ -68,6 +78,18 @@
         app:layout_constraintStart_toEndOf="@id/item_image"/>
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_10_off"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="12dp"
+        android:textSize="19sp"
+        android:textColor="@color/green"
+        app:layout_constraintStart_toEndOf="@id/item_price_text"
+        app:layout_constraintTop_toBottomOf="@id/rating_text"/>
+
+    <TextView
         android:id="@+id/free_delivery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -78,8 +100,7 @@
         android:layout_marginStart="15dp"
         android:fontFamily="sans-serif-smallcaps"
         app:layout_constraintTop_toBottomOf="@id/item_price_text"
-        app:layout_constraintStart_toEndOf="@id/item_image"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintStart_toEndOf="@id/item_image"/>
 
 
     <View

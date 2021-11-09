@@ -7,32 +7,74 @@
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_height="56dp"
         android:layout_marginTop="0dp"
         android:background="@color/blue"
         android:id="@+id/toolbar"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         android:elevation="4dp">
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="@string/shopify"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:layout_gravity="center"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shopify"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
 
     </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:background="@color/blue"
+        android:layout_below="@id/toolbar"
+        android:layout_height="50dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/ic_baseline_search_24" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:maxLines="1"
+                    android:layout_margin="8dp"
+                    android:ellipsize="end"
+                    android:hint="@string/search_for_products_brands_and_more"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
 
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/main_tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar"
+        android:layout_below="@id/search_bar"
         android:background="@color/blue"
         app:tabIndicatorFullWidth="false"
         app:tabIndicatorColor="@color/white"
@@ -129,9 +171,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        tools:listitem="@layout/list_item"
         android:layout_height="match_parent"
-        android:layout_below="@id/main_tabs" />
+        android:layout_below="@id/main_tabs"
+        tools:listitem="@layout/list_item" />
 
 
 </RelativeLayout>
