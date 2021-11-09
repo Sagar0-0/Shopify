@@ -11,13 +11,16 @@
         android:theme="@style/Theme.Shopify">
         <activity
             android:name=".PurchaseActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".CartActivity"/>
         <activity
             android:name=".CartActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".DetailActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_marginTop="0dp"
-        android:background="@color/purple_700"
+        android:background="@color/blue"
         android:id="@+id/toolbar"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         android:elevation="4dp">
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
-        android:background="@color/purple_500"
+        android:background="@color/blue"
         app:tabIndicatorFullWidth="false"
         app:tabIndicatorColor="@color/white"
         app:tabIndicatorHeight="3.5dp"

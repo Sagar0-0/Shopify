@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="86dp"
-    android:background="@color/purple_700"
+    android:background="@color/blue"
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
@@ -20,17 +20,17 @@
         android:layout_height="wrap_content"
         android:text="@string/home"
         android:layout_toEndOf="@id/homeimg"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:layout_centerVertical="true"
         android:layout_marginStart="20dp"/>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/ic_launcher_background"
-        android:id="@+id/logo"/>
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:src="@drawable/ic_launcher_background"-->
+<!--        android:id="@+id/logo"/>-->
 
 
 </RelativeLayout>

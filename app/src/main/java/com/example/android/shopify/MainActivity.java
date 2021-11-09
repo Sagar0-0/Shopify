@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.Window;
 import android.widget.ToggleButton;
 
 import java.util.ArrayList;
@@ -21,10 +22,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        DrawerLayout drawerLayout=findViewById(R.id.drawer_layout);
 
         Toolbar toolbar=findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        DrawerLayout drawerLayout=findViewById(R.id.drawer_layout);
+        if (toolbar != null) {
+            setSupportActionBar(toolbar);
+            getSupportActionBar().setDisplayShowTitleEnabled(false);
+            getSupportActionBar().setDisplayShowHomeEnabled(false);
+        }
+
+
+
+
         ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this,drawerLayout,toolbar,
                 R.string.Open_Navigation_Drawer,R.string.close_Navigation_Drawer);
 
