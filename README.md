@@ -15,3 +15,6 @@ It have handy user interface with navigation items for easy access of activities
 # Payments
 Using RazorPay Api the user can pay for their choosen products with different payment methods like Wallets, UPI IDs, Bank Accounts, etc. It is a handy api with easy to use methods with secure payment options.
 ![Screenshot_2021-11-09-18-36-38-00_41b19d7c3beee17e00b4e5b7bb8fd015](https://user-images.githubusercontent.com/85388413/140934321-66abe009-9d4d-4a22-8d6b-1495f0c090bf.png)
+
+# TODOs
+Products will be stored and retrieved using Firebase. Login/SignUp will be there for user's account accessibility. Also User's profile with their address and other credentials will be saved for different features for delivery of their product.
